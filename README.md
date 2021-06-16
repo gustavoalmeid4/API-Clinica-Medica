@@ -17,10 +17,22 @@ CRUD EntityFramework / SqlServer
   https://localhost:44327/api/Pacientes 
 ```
 
+#### Busca Paciente por ID
+
+```http
+  https://localhost:44327/api/Pacientes/{ID}
+```
+
 #### Lista todos Medicos
 
 ```http
   https://localhost:44327/api/Medicos
+```
+
+#### Busca Medico por ID
+
+```http
+  https://localhost:44327/api/Medicos/{ID}
 ```
 
 #### Cadastrar Medico
